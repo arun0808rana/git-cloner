@@ -40,11 +40,27 @@ function hit(url){
 }
 ```
 
+### Changing .env file
+
+Change this `USER_CLONE_PATH` path according to your choice in the .env file.
+
+If you cannot figure out the `full path` of the directory that you want to put your all clones then run the following command in the `same directory` in which you want to clone.
+```bash
+pwd
+```
+This will give you your path.
+
+Then change the following in .env file.
+
+```
+USER_CLONE_PATH="/home/dev/Desktop/pro/clones"
+```
+
 ### Running the server
 
 Make sure your port `7676` is free, else specify the port you want in both index.js file and in the violent monkey script as well.
 
-```javascript
+```bash
 git clone https://github.com/arun0808rana/git-cloner.git
 cd git-cloner
 npm install
