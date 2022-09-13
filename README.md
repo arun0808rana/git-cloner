@@ -45,7 +45,8 @@ function hit(url){
 Make sure your port `7676` is free, else specify the port you want in both index.js file and in the violent monkey script as well.
 
 ```javascript
+git clone https://github.com/arun0808rana/git-cloner.git
+cd git-cloner
 npm install
 node index.js
 ```
-
